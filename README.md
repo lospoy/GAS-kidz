@@ -1,3 +1,3 @@
 # GAS_2022
-Gentle Art Studio's Adults Program Website
+Gentle Art Studio's BJJ Website
 
