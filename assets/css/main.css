@@ -4398,3 +4398,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
       display: none;
     }
   }
+
+  /* POST CONTACT */
+
+  @media screen and (min-width: 980px) {
+    .footer-mobile {
+      display: none;
+    }
+  }
