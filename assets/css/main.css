@@ -4374,6 +4374,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     padding-bottom: 1rem;
 }
 
+.googlemap-footer {
+    width: 100%;
+    height: 300px;
+}
+
 
 /* BUTTONS MOBILE */
 @media screen and (max-width: 736px) {
