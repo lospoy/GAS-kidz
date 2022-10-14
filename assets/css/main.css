@@ -3513,6 +3513,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   padding: 8rem 8rem 6rem 8rem ;
 }
 
+#main > .post.schedule {
+    padding: 10rem ;
+  }
+
 #main > .post header.major > .date {
   margin-top: -2rem;
 }
@@ -4406,3 +4410,4 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
       display: none;
     }
   }
+
