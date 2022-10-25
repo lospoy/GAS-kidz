@@ -3521,7 +3521,11 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #main > .post.schedule {
     padding: 10rem ;
-  }
+}
+
+#main > .post.embed {
+    padding: 0 ;
+}
 
 #main > .post header.major > .date {
   margin-top: -2rem;
