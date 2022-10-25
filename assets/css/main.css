@@ -1872,6 +1872,7 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+  border-radius: 1.5rem;
 }
 
 input[type="submit"].icon:before,
@@ -2410,6 +2411,7 @@ input[type="radio"]:focus + label:before {
   display: block;
   margin: 4rem 0;
   width: 100%;
+  border-radius: 1.5rem;
 }
 
 .image.main:first-child {
@@ -2438,6 +2440,7 @@ a.image img {
   transition: -webkit-transform 0.2s ease-out;
   transition: transform 0.2s ease-out;
   transition: transform 0.2s ease-out, -webkit-transform 0.2s ease-out;
+  border-radius: 1rem;
 }
 
 a.image:hover img {
@@ -3107,7 +3110,7 @@ body.is-preload #wrapper.fade-in:before {
   -webkit-box-shadow: inset 0 0 0 2px #ffffff;
           box-shadow: inset 0 0 0 2px #ffffff;
   color: #ffffff !important;
-  border-radius: 1.5rem;
+  border-radius: 1rem;
 }
 
 #intro input[type="submit"]:hover,
@@ -3138,6 +3141,7 @@ body.is-preload #wrapper.fade-in:before {
 #intro button.primary:hover,
 #intro .button.primary:hover {
   background-color: #3c7aed;
+  border-radius: 1.5rem;
 }
 
 #intro h1 {
@@ -3161,7 +3165,6 @@ body.is-preload #wrapper.fade-in:before {
   transform: translateY(2rem);
   opacity: 0;
   visibility: hidden;
-  border-radius: 1.5rem;
 }
 
 #intro.hidden {
@@ -3317,6 +3320,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   padding: 1rem 1.75rem;
   text-transform: uppercase;
   visibility: visible;
+  border-top-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 
 #header .logo:hover {
@@ -3364,6 +3370,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
+  border-top-left-radius: 1.5rem;
 }
 
 #nav ul.divided li {
@@ -3499,6 +3506,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 
 #main > * {
@@ -3686,6 +3695,9 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
+  border-bottom-right-radius: 1.5rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 
 #footer input, #footer select, #footer textarea {
@@ -3747,6 +3759,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-box-shadow: inset 0 0 0 2px #3c7aed;
           box-shadow: inset 0 0 0 2px #3c7aed;
   color: #3c7aed !important;
+  border-radius: 1.5rem;
 }
 
 #footer input[type="submit"].primary,
@@ -4282,6 +4295,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   visibility: hidden;
   width: 20rem;
   z-index: 10002;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
 }
 
 #navPanel .links {
