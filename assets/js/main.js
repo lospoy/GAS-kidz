@@ -4,8 +4,6 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-console.log("git is working")
-
 (function($) {
 
 	var	$window = $(window),
