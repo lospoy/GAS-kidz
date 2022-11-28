@@ -44,8 +44,8 @@ BEGIN
   $max_recipients    = 5;
   $mailprog          = '/usr/sbin/sendmail -oi -t';
   $postmaster        = '';
-  @referers          = qw(gentleartstudio.com www.gentleartstudio.com);
-  @allow_mail_to     = qw(bjj@gentleartstudio.com);
+  @referers          = qw(gentleartkidz.com www.gentleartkidz.com);
+  @allow_mail_to     = qw(astoriasbest@gentleartstudio.com);
   @recipients        = ();
   %recipient_alias   = ();
   @valid_ENV         = qw(REMOTE_HOST REMOTE_ADDR REMOTE_USER HTTP_USER_AGENT);
