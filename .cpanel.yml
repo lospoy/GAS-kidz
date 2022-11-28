@@ -1,6 +1,6 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/genera92/gentleartstudio.com
+    - export DEPLOYPATH=/home/genera92/gentleartkidz.com
     - /bin/cp index.html $DEPLOYPATH
     - /bin/cp /assets/main style.css $DEPLOYPATH
