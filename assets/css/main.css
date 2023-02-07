@@ -3458,9 +3458,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
   outline: none;
   padding: 0 2rem;
+  overflow-wrap: break-word;
 }
 
 #nav ul.links li a:hover {
@@ -4491,36 +4492,24 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
   button.accordion {
   cursor: pointer;
-  display: block;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: 600;
-  letter-spacing: 0.075em;
-  height: 4.5rem;
+  height: 6rem;
   line-height: 1rem;
   padding: 0 2rem;
   text-align: left;
   text-decoration: none;
   text-transform: none;
-  white-space: pre-wrap;
+  overflow-wrap: break-word;
   box-shadow: none;
-}
-
-.accordion:after {
-  content: '\02795'; /* Unicode character for "plus" sign (+) */
-  font-size: 10px;
-  float: right;
-  margin-right: -1.3rem;
+  white-space: normal;
 }
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
   background-color: rgba(151, 186, 74, .3);
   color: #f7f7f7;
-}
-
-.active:after {
-  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
 /* Style the accordion panel. Note: hidden by default */
