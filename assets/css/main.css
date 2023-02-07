@@ -4443,4 +4443,94 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
       display: none;
     }
   }
+        
+/* SUMMER CAMP & AFTER SCHOOL PAGES */
 
+#main .post.featured.summer > header {
+  padding-top: 0rem;
+}
+
+.post.featured > p {
+  line-height: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+
+#main > * {
+  border: none;
+}
+
+.image.main {
+  max-width: 400px;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+
+#main
+  .post.featured.summer.one,
+  .post.featured.summer.one h2 {
+  background-color: #294f96;
+  color: #f7f7f7;
+}
+
+/* FAQ */
+
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+  background-color: #f7f7f7;
+  color: #f7f7f7;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 2px 0;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+  button.accordion {
+  cursor: pointer;
+  display: block;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.075em;
+  height: 4.5rem;
+  line-height: 1rem;
+  padding: 0 2rem;
+  text-align: left;
+  text-decoration: none;
+  text-transform: none;
+  white-space: pre-wrap;
+  box-shadow: none;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 10px;
+  float: right;
+  margin-right: -1.3rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: rgba(151, 186, 74, .3);
+  color: #f7f7f7;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  font-size: .8rem;
+  line-height: 1.2rem;
+  padding-top: .5rem;
+} 
