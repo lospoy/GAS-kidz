@@ -1,5 +1,5 @@
 # <a href="https://gentleartkidz.com">Gentle Art Kidz</a>
-NYC's premier Brazilian Jiu Jitsu Studio Website
+Astoria's Best Afterschool & Summer Camp Website
 
 By Carlos Campoy
 
